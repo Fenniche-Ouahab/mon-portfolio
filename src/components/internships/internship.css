@@ -1,0 +1,54 @@
+/* internship */
+
+.internship {
+  padding: 20px;
+  margin: -35px;
+}
+
+.internship__intro {
+  font-size: 1rem;
+  padding: 20px 20px;
+  margin: 10px 0;
+}
+
+.internship_container {
+  background-color: #dbdddf;
+  padding: 30px 20px;
+}
+
+.internship__heading {
+  font-size: 25px;
+  font-weight: 700;
+  color: #354358;
+  margin-left: 10px;
+}
+
+/* internship-card */
+.internship-card {
+  border: 1px dotted black;
+  background-color: #fff;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+}
+
+.internship-card__icon {
+  width: 100px;
+  height: 50px;
+}
+
+.internship-card-body {
+  margin-left: 15px;
+}
+
+.internship_card__content {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #6e7e91;
+}
+
+.internship_card_langage {
+  color: green;
+}
