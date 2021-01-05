@@ -6,7 +6,7 @@ import tie from "../assets/icons/tie.svg";
 import pin from "../assets/icons/pin.svg";
 import linkedin from "../assets/icons/linkedin.svg";
 import twitter from "../assets/icons/twitter.svg";
-import CV from "../assets/CvFenniche2020.pdf";
+import CV from "../assets/CvFenniche2021.pdf";
 import { motion } from "framer-motion";
 
 const Sidebar = () => {
@@ -39,7 +39,7 @@ const Sidebar = () => {
         Ouahab <span>FENNICHE</span>
       </div>
       <div className="sidebar__item sidebar__title">Développeur Full-Stack</div>
-      <a href={CV} download="CvFenniche2020.pdf">
+      <a href={CV} download="CvFenniche2021.pdf">
         <div className="sidebar__item sidebar__resume">
           <img src={tie} alt="CV" className="sidebar__icon" /> Télécharger mon
           CV
@@ -63,7 +63,7 @@ const Sidebar = () => {
         </div>
         <div className="sidebar__location">
           <img src={pin} alt="location" className="sidebar__icon mr-3" />
-          Lille, France
+          Île-de-France,  France
         </div>
         <div className="sidebar__item">ouahabfenniche@outlook.fr</div>
         <div className="sidebar__item">+33(0)758750137</div>
