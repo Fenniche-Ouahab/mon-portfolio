@@ -90,11 +90,7 @@ const languages = [
     // level: "60",
   },
 
-  {
-    icon: csharp,
-    // name: "Android",
-    // level: "60",
-  },
+
 
   {
     icon: c,

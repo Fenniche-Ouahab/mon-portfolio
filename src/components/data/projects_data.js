@@ -1,4 +1,5 @@
 import COVID from "../../assets/projects_images/COVID.png";
+import METEO from "../../assets/projects_images/meteo.png";
 import Portfolio from "../../assets/projects_images/Portfo.png";
 import Cov from "../../assets/projects_images/CovAngular.png";
 const data_projects = [
@@ -19,6 +20,12 @@ const data_projects = [
     image: Cov,
     site_url: "https://traqueurcovid19.netlify.app/",
     category: ["angular", "bootstrap", "react-router", "framer-motion"],
+  },
+  {
+    name: "météo app",
+    image: METEO,
+    site_url: "https://meteo-git-main.fenniche-ouahab.vercel.app/",
+    category: ["react.js", "react-dom", "api"],
   },
 ];
 
